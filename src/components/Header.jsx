@@ -2,12 +2,12 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div>
-      <header className="text-black-600 body-font">
+    <div className="sticky top-0 z-20">
+      <header className="text-white body-font bg-black">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
             <img className="h-10 w-[auto]" src="https://w7.pngwing.com/pngs/426/895/png-transparent-google-logo-google-doodle-google-search-design-tshirt-company-text-trademark-thumbnail.png" alt="" />
-            <span className="ml-3 text-xl">Tailblocks</span>
+            <span className="ml-3 text-xl text-white">Tailblocks</span>
           </a>
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
             <a className="mr-5 hover:text-red-600 cursor-pointer">First Link</a>
@@ -15,7 +15,7 @@ const Header = () => {
             <a className="mr-5 hover:text-red-600 cursor-pointer">Third Link</a>
             <a className="mr-5 hover:text-red-600 cursor-pointer">Fourth Link</a>
           </nav>
-          <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-pink-700 hover:text-white rounded text-base mt-4 md:mt-0">
+          <button className="inline-flex items-center bg-blue-600 border-0 py-1 px-3 focus:outline-none hover:bg-pink-700 hover:text-white rounded text-base mt-4 md:mt-0">
             Button
             <svg
               fill="none"
